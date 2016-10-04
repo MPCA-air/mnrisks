@@ -1,1 +1,1 @@
-# MnRiskS
+# MNRiskS
