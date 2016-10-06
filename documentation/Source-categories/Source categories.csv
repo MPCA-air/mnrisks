@@ -1,4 +1,4 @@
-Category SCC,MNRiskS category name,SCC Code,Subcategories,Surrogate for apportioning,NO2 Frx,Diesel Source,Diesel PM Frx,Source Category,Surrogate name,2011 Update
+MNRiskS Category,MNRiskS category name,EPA SCC Code,Subcategories,Surrogate for apportioning,NO2 Frx,Diesel Source,Diesel PM Frx,Source Category,Surrogate name,2011 Update
 APT_TRI,allocated point - TRI sources,20300201,Int Comb /Comm-Inst /Natural Gas /Reciprocating,model as individual volume sources,0.8,FALSE,1,Allocated-Point,N/A,
 APT_TRI,allocated point - TRI sources,30101401,Chem Manuf /Paint Manuf /General Mixing and Handling,model as individual volume sources,0.8,FALSE,1,Allocated-Point,N/A,
 APT_TRI,allocated point - TRI sources,30104501,Chem Manuf /Organic Fertilizer /General: Mixing/Handling,model as individual volume sources,0.8,FALSE,1,Allocated-Point,N/A,
