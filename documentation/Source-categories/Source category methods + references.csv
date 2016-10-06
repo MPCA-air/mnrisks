@@ -1,0 +1,46 @@
+category faux SCC,MNRiskS category name,surrogate for apportioning,surrogate_name,Data Source
+40100101,allocated point - dry cleaners,model as individual point sources,N/A,MPCA EIS
+31502101,allocated point - crematoria,model as individual point sources,N/A,MPCA EIS
+50100701,allocated point - POTWs,model as individual volume sources,N/A,MPCA EIS
+50100402,allocated point - landfills,model as individual volume sources,N/A,MPCA EIS
+A_FEEDLOTS,area - feedlots,"land in ag uses (land use categories 71, 81, 82)",frx_ag,EPA EIS
+NR_AIRPORT,airports,model as individual volume sources,N/A,EPA airports database
+A_BOILERS,area - industrial + commercial/institutional,"Industrial/Commercial/Institutional land use in metro - outstate LU categories 23,24 (med & high intensity developed)",Frx_Comm_Inst_Ind_METRO_Frx_med_hi_development_Outstate,MPCA GIS land use database
+A_CREMCOMP,area - composting & animal cremation,land area,frx_total_area,MPCA GIS land use database
+A_FOOD,area - food and kindred products,"Mixed, Retail, and Other Commercial/Institutional land use in metro - outstate LU categories 23,24 (med & high intensity developed)",Frx_Comm_InstMETRO_Frx_Med_High,"MetroGIS LU for metro, MPCA GIS land use database"
+A_HEALTH,area - health services,to BGs where hospitals located from ReferenceUSA,frx_Hosp,ReferenceUSA
+A_MISCROAD,area - misc roadway by VKT,VKT,frx_VKT,MnDOT roads and traffic count databases
+A_MISCAGR,area - misc ag/pesticide,fraction of land in land use category 82 (crop production),frx_cropland,MPCA GIS land use database
+A_MISCCOMM,area - misc non-industrial: consumer & commercial,Single Family Households,frx_sfh,Census
+A_OPENBURN,area - open burning - yard & land,land area minus developed land area,frx_undeveloped,MPCA GIS land use database
+A_WASTEBRN,area - open burning - household waste,"Households in undeveloped land (all categories except 21,22,23,24)",frx_sfhs_in_undeveloped,Survey or census+MPCA GIS land use database
+A_PETRTRAN,area - petroleum & product storage & transport,gas station sales in BG from ReferenceUSA ,frx_GasSales,ReferenceUSA
+A_RESIFUEL,area - residential fuel combustion,Single Family Households,frx_sfh,Census
+A_RESIWOOD,area - residential wood combustion indoor,Single Family Households,frx_sfh,Census
+A_OWB,area - residential wood combustion outdoor wood boiler,"survey data if possible else households in undeveloped land (all categories except 21,22,23,24)",frx_sfh_undeveloped,Survey or census+MPCA GIS land use database
+A_RECFIRE,area - residential wood combustion outdoor recreation,"Single family housholds from census, and campsites if present. Weighted by survey if campsites present for burning while camping or burning for pleasure.",frx_sfh_camp,census and residential wood survey
+A_MISCCAR,area - miscellaneous vehicle ownership,fraction of cars owned in BG,frx_vehicles,census
+A_DWELLINGS,area - misc non-industrial: consumer & commercial,fraction housholds,frx_HH,census
+A_PORTABLES,area - portables,"apportion by construction projects in METRO, Medium High Development Outstate",Frx_constr_METRO_Frx_Med_High_Outstate,
+A_MINES,area - mining & quarrying,undeveloped land,frx_undeveloped,MPCA GIS land use database
+A_SURFCOAT,area - surface coating,"Mixed, Retail, and Other Commercial/Institutional/Industrial in metro - outstate LU categories 23,24 (med & high intensity developed)",Frx_Comm_Inst_Ind_METRO_Frx_med_hi_development_Outstate,"MetroGIS LU for metro, MPCA GIS land use database"
+A_AGFIRE,Area - Ag Fires,"land in land use categories 71 & 81 (Grassland/herbaceous, Pasture/Hay)",frx_grass_pasture,MPCA GIS land use database
+A_WILDFIRE,Area - Wildfires & Prescribed Forest Burning,model as individual volume sources,Events,EPA inventory of events
+A_BIOGEN,area - Biogenic - Vegetation & Soil,fraction undeveloped land,frx_undeveloped,
+NR_CMV,nonroad - commercial marine vessels,major waterways shapefile,frx_CMV,EPA CMV shapefile
+NR_PLEASUR,nonroad - Pleasure Craft,"Water surface area, minus Minneapolis and St. Paul lakes.",Frx_Boat_Water,MPCA GIS land use database
+NR_RAILYARD,nonroad - railyards,model as volume sources located at coordinates,modeled with locomotives,EPA list of railyards
+NR_RAIL,nonroad - rail,railroads shapefile with weighting for activity,frx_RR_wtd,EPA Rail shapefile (plus locations of yards)
+NR_AGEQUIP,nonroad - Agricultural Equipment,"land in ag uses (land use categories 71, 81, 82)",frx_ag,MPCA GIS land use database
+NR_RECEQUP,nonroad - Off-highway Vehicle Recreational Equipment,"undeveloped land and developed low intensity, and developed open space",Frx_Low_OpenSpace,MPCA GIS land use database
+NR_LAWNG,"nonroad - Off-highway Vehicle - Lawn & Garden Equipment
+","open, low, & med intensity developed land",Frx_Low_Med_OpenSpace,Census
+NR_CONSTR,nonroad - Off-highway Vehicle - Construction & Mining Equipment,med&hi intensity developed outstate;  + combine reported construction in metro,Frx_constr_METRO_Frx_Med_High_Outstate,"MetroGIS LU + contruction events for metro, MPCA GIS land use database"
+NR_INDUSTR,nonroad - Off-highway Vehicle  - Industrial Equipment,"Institutional & Industrial in metro - outstate LU categories 23,24 (med & high intensity developed)",Frx_Comm_Inst_Ind_METRO_Frx_med_hi_development_Outstate,"MetroGIS LU for metro, MPCA GIS land use database"
+NR_COMM,nonroad - Off-highway Vehicle Commercial Equipment,"Mixed, Retail, and Other Commercial/Institutional land use in metro - outstate LU categories 23,24 (med & high intensity developed)",Frx_Comm_InstMETRO_Frx_Med_High,"MetroGIS LU for metro, MPCA GIS land use database"
+NR_LOGGING,nonroad - Off-highway Vehicle - Logging Equipment,"land use categories forest = 41, 42, 43, 52",frx_forest,MPCA GIS land use database
+OR_GAS,onroad -lower traffic segments - gas,VKT,frx_VKT,MnDOT roads and traffic count databases
+OR_CNG,onroad - compressed natural gas,VKT with diesel fractions from MnDOT,,
+OR_DIESEL,onroad - lower traffic segments - diesel,diesel VKT,frx_VKT_d,MnDOT roads and traffic count databases
+OR_GAS_HT,onroad - high traffic segments - gas,model as individual volume sources (pseudo line sources),,MnDOT roads and traffic count databases
+OR_DIESEL_HT,onroad - high traffic segments - diesel,model as individual volume sources (pseudo line sources),,MnDOT roads and traffic count databases
