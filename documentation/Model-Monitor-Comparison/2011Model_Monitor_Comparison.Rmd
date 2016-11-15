@@ -1,0 +1,142 @@
+---
+title: "MNRiskS2011 Model Monitor Comparison"
+author: "KMEllickson"
+date: "May 12, 2016, updated August 1, 2016"
+output: html_document
+---
+
+###Annual Mean Measurements and MNRiskS Annual Modeled Concentrations were compared using:
+-Scatterplots of air toxics, criteria pollutants and single pollutants
+<br>
+-Model Monitor Statistics
+<br>
+
+-Measured Data are Collected from the Air Data Folder:
+<br>
+<a href="file:///X:/Programs/Air_Quality_Programs/Air Monitoring Data and Risks/6 Air Data/Monitoring Data"> Folder location for Air Data </a>
+<br>
+<br>
+
+###Measured Data are Summarized and assigned an AQS and an MPCA Site ID:
+-Arithmetic means were calculated for 2011 by parameter, and site for criteria pollutants
+<br>
+-MLE means were calculated for air toxics for 2011 by parameter and site
+<br>
+<a href="file://///S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Ambient Air Data/Get2011AirData.R">Prepared and saved here for monitor measurements and the MNRiskS result at the closest receptor</a>
+<br>
+<br>
+
+###MNRiskS receptors were assigned to ambient air monitor IDs
+<br>
+-MNRiskS receptors within a 5km buffer of an ambient monitor
+<br>
+-The closest MNRiskS receptors to each ambient air monitor were also identified.
+<a href="file://///S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Maps/Model Monitor Comparison_2011.mxd">This is the map project used to identify nearest receptors and receptors within 5km of an ambient air monitor</a>
+<br>
+-There was only one site with a high enough detected level of chromium to provide an annual mean estate. This was from a special monitoring project that was specific to one facility (Grede Foundry). DCI, a stainless steel manufacturer was found to be the source of the high measured chromium. Due to the very specific nature of this monitoring effort, these results were not included in the model-monitor comparison.
+<br>
+<br>
+
+###MNRiskS results were pulled and pared down to those closest to monitors and within 5km
+<br>
+-MnRiskS data for all monitored pollutants were pulled from the FTP site, and converted from an *.rsk to an *.rds file using this script.
+<br>
+<a href="file://///S-SP14/MNRisk/MNRiskS 2011 Results/Analysis Tools/.RSK file conversion/rsk Conversion.R">This script creates a dataframe from the raw MNRiskS results in the *.rsk format and puts columns names on the dataframe, saves as an *.rds</a>
+<br>
+<br>
+-MNRiskS receptors were joined to buffer and closest receptors and saved as a csv file.
+<br>
+<a href="file://///S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Closest and Buffer Receptors and MNRiskS Results.R">This script pares down MNRiskS results to those at closest receptors and receptors within 5km buffers</a>
+<br>
+<br>
+-MNRiskS results are then paired with measured results prior to making plots and calculating model monitor statistics.
+<br>
+<a href="file://///S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Pulling Together MNRiskS and Measurements.R">This script pares down MNRiskS results to those at closest receptors and receptors within 5km buffers</a>
+<br>
+<br>
+
+-The result of the work in this file was done using two csv files.
+<br>
+<a href="file://///S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/allmeasurements_receptors_buffer.csv">Paired measurements, MNRiskS values, and site IDs.</a>
+<br>
+<a href="file://///S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/allmeasurements_receptors_closest.csv">Paired measurements, MNRiskS values, receptors, and site IDs.</a>
+<br>
+<br>
+
+###Single Pollutant Scatterplots
+<br>
+-The smoothed line is the linear regression line
+<br>
+-The dotted line is the slope = 1, intercept = 0 abline
+<br>
+-Click the links to open the pds of these plots
+<br>
+-Select the back arrow to return to the html
+<br>
+<br>
+<a href="file://///S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/2011 Analysis for Closest Air Monitors to MNRiskS Receptors/Single Pollutant Modeled vs. Observed Plots_Closest Receptors_BIGSCALE.pdf">Prepared and saved here for monitor measurements and the MNRiskS result at the closest receptor</a>
+
+
+<a href="file://///S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/2011 Max Min Mean Analysis/Single Pollutant Modeled vs. Observed Plots_Average Modeled with 5km.pdf">Prepared and saved here for monitor measurements and the mean MNRiskS results for receptors within 5 km (of the monitor)</a>
+<br>
+<br>
+
+###Multiple Pollutant Scatterplots (Air Toxics)
+
+<br>
+<img src="//S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/2011 Max Min Mean Analysis/Buffer Average scatterplotloglogtoxics2011.png" />
+
+###Multiple Pollutant Scatterplots (Criteria Pollutants)
+<br>
+<img src="//S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/2011 Max Min Mean Analysis/Buffer Average scatterplotloglogcriteria2011.png" />
+
+###Pollutant Comparisons (Averaged Receptors Results within 5km buffer of Ambient Monitor)
+
+<br>
+<img src="//S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/2011 Max Min Mean Analysis/pollutantcomparison.png" />
+
+###Pollutant Comparisons (Closest Receptors Results to Ambient Monitor)
+
+<br>
+<img src="//S-SP14/MNRisk/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/2011 Max Min Mean Analysis/pollutantcomparison.png" />
+
+###Model Monitor Statistical Values
+#####The model-monitor statistics were calculated in R using the openair package and the modStats command.
+######modStats(mydata, mod = "mod", obs = "obs", statistic = c("n", "FAC2",
+######"MB", "MGE", "NMB", "NMGE", "RMSE", "r", "COE", "IOA"), type = "default",
+######rank.name = NULL, ...)
+All of the specific model monitor comparison statistics are described at this link: (http://www.inside-r.org/packages/cran/openair/docs/modStats)
+######The Model-monitor tables are in descending order by the fraction of site-model matches within a factor of 2. Therefore, the pollutants that are at the top of these tables are the best predicted pollutants.
+
+
+###Model Monitor Statistical Values for Closest Receptors
+```{r, echo=FALSE}
+data <- read.csv("M:/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/2011 Analysis for Closest Air Monitors to MNRiskS Receptors/closestmodmonstatsall_noinitialvalues.csv", stringsAsFactors=FALSE)
+data <- data[, c("substance", "Counts", "tau", "sl", "FAC2", "COE", "IOA", "FrxBias")]
+data[,-1] <-round(data[,-1],2)
+data <- data[order(-data$FAC2),]
+print(data)
+```
+
+###Model Monitor Statistical Values for Average MNRiskS Results for Receptors within 5km of a Monitor
+```{r, echo=FALSE}
+data <- read.csv("M:/KME Files/Model Monitor/2011_AllSources/Statistics/Data Tables and Processing/2011 Max Min Mean Analysis/avgmodmonstatsall_noinitialvalues.csv", stringsAsFactors=FALSE)
+data <- data[, c("substance", "Counts", "tau", "sl", "FAC2", "COE", "IOA", "FrxBias")]
+data[,-1] <-round(data[,-1],2)
+data <- data[order(-data$FAC2),]
+print(data)
+```
+
+###Notes and Preliminary Conclusions
+<br>
+-The following pollutants had more than half of the model - monitor matches at or near within 2 times of eachother: PM2.5, PM10, benzene, 1,3 butadiene, trichloroethylene, acetaldehyde, and formaldehyde.
+<br>
+-Some of the agency priority pollutants fall into this category of pollutants with more than half of the model - monitor matches at or near within 2 times of eachother.
+<br>
+-The following pollutants need further investiation, as their model-monitor matches were fairly far outside of a factor of two agreement: sulfur dioxide, vinyl acetate, carbon monoxide, carbon disulfide, barium, cyclohexane, acetone, 1,2,4 trimethylbenzene, toluene, xylenes, methyl chloroform, manganese.
+<br>
+-This model does well for the fraction of paired values within a factor of 2. The paired measured-modeled values do less when compared to a 1:1 line. 
+<br>
+-In general, the model predicts more spatial variability than is measured.
+<br>
+-The number of model - monitor match pairs that are within a factor of 2 of eachother improved over the 2008 and 2005 version of MNRiskS.
