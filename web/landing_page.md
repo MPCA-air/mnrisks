@@ -2,7 +2,7 @@
 
 Potential air quality and health risks are modeled across the entire state of Minnesota for all permitted facilities and emission sources in EPA's emission inventory. Detailed modeling results are available here.
 
-The MNRiskS tool is the outcome of the work to better understand cumulative air pollution risks in Minnesota.  
+The _MNRiskS_ tool is the outcome of the work to better understand cumulative air pollution risks in Minnesota.  
 It was later updated with new emissions data every three years, including 2002, 2005, 2008, and 2011.  
 The emission inventory includes the following source types:  
 
@@ -14,7 +14,7 @@ __Mobile sources__
 
 ![mobile sources](images/mobile_source_examples.png)
 
-MNRiskS has become an essential tool in understanding air pollution in Minnesota, and is used in a number of ways by MPCA programs:  
+_MNRiskS_ has become an essential tool in understanding air pollution in Minnesota, and is used in a number of ways at the MPCA:  
 
 1.	Providing a picture of cumulative background air pollution concentrations and risks against which to evaluate potential changes.  
 2.	Focusing and refining the air emissions inventory.  
