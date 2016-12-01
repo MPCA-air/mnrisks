@@ -11,7 +11,7 @@ The model is updated along with EPA's national emissions inventory data every th
 _MNRiskS_ is an essential tool in understanding air pollution in Minnesota and is used by the MPCA to:  
 
 1.	Provide a picture of cumulative background air pollution concentrations and risks.  
-2.	Focuse and refine the air emissions inventory.  
+2.	Focus and refine the air emissions inventory.  
 3.	Identify and prioritize pollutants for future work according to air concentrations and health risks.  
 4.	Identify and prioritize individual sources and source categories for future work based on air concentrations and health risks.  
 5.	Compare modeled concentrations with monitoring data to evaluate monitor siting and to quantify model uncertainties.  
