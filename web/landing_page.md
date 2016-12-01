@@ -27,4 +27,6 @@ _MNRiskS_ has become an essential tool in understanding air pollution in Minneso
 
 ## Results
 
+![mnrisks tools](images/tools_examples.png)
+
 ## Methods & Documentation
