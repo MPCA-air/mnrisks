@@ -2,6 +2,7 @@
 
 _MNRiskS_ aims to better understand cumulative air pollution risks in Minnesota by identifying where concentrations of pollutants are elevated, and which sources are contributing to the pollution in those areas. To capture the potential for air quality concerns across the state of Minnesota modeling is performed for all permitted facilities and emission sources in the statewide air emissions inventory. These sources include traffic, wildfires, airports, as well as more dispersed sources such as construction equipment and off-road vehicles.
 
+__Area sources__  
 __Mobile sources__
 
 ![mobile sources](images/mobile_source_examples.png)
