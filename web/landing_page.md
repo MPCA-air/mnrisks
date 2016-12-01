@@ -17,7 +17,7 @@ _MNRiskS_ is an essential tool for understanding air pollution in Minnesota and 
 7.	Identify the effects of potential future changes in emissions due to policy or program initiatives or changes at specific facilities.  
 
 
-## Results
+## Maps and results
 
 The model is updated along with EPA's national emissions inventory data every three years. The current results are based on EPA’s most recent completed inventory for 2011. Updated results based on 2014 emissions will be available in 2017, shortly after EPA releases their finalized national emissions inventory.  
 
