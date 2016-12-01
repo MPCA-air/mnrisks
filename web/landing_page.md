@@ -1,4 +1,4 @@
-# MnRiskS
+# MNRiskS
 
 The goal of _MNRiskS_ is to better understand cumulative air pollution risks in Minnesota by identifying where concentrations of pollutants are elevated, as well as which sources are contributing the most to these areas. To capture the potential air quality and health risks across the entire state of Minnesota modeling is performed for all permitted facilities and emission sources in EPA's emission inventory. These sources include traffic, wildfires, airports, as well as more dispersed sources such as construction equipment and off-road vehicles. This statewide air modeling effort is known as _MNRiskS_.
 
