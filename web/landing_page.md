@@ -6,7 +6,7 @@ __Mobile sources__
 
 ![mobile sources](images/mobile_source_examples.png)
 
-The model is updated along with EPA's national emissions inventory data every three years. The current results are based on the most recent completed emissions inventory for the year 2011. Updated results based on 2014 emissions is scheduled to be available shortly after EPA releases their finalized national emissions inventory in 2017. 
+The model is updated along with EPA's national emissions inventory data every three years. The current results are based on EPA’s most recent completed inventory for 2011. Updated results based on 2014 emissions will be available in 2017, shortly after EPA releases their finalized national emissions inventory.   
 
 _MNRiskS_ is an essential tool for understanding air pollution in Minnesota and is used by the MPCA to:  
 
