@@ -24,8 +24,13 @@ The model is updated along with EPA's national emissions inventory data every th
 
 ![mnrisks tools](images/tools_examples.png)
 
-## Methods & Documentation
+
+## Uncertainties
+
+## Methods and documentation
 
 The _MNRiskS_ technical support document contains
 
 ![model_monitor](images/model_monitor.png)
+
+## Frequent questions
