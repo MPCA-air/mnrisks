@@ -1,35 +1,42 @@
-# MNRiskS
+# MNRisk
+•	Overview
+•	Maps and results
+•	Assumptions / uncertainties
+•	Methods
+•	Frequent questions
+•	Contacts
 
-> It's not possible to monitor everywhere, nor everything.
+> It's not possible to monitor everywhere, nor everything. -Dr. Pratt
 
-_MNRiskS_ aims to better understand cumulative air pollution risks in Minnesota by identifying where concentrations of pollutants are elevated, and which sources contribute to the pollution in those areas. To capture the potential for air quality concerns across the state of Minnesota modeling is performed for all permitted facilities and emission sources in the statewide air emissions inventory. These sources include traffic, wildfires, airports, as well as more dispersed sources such as construction equipment and off-road vehicles.
+_MNRisk_ is an essential tool for understanding air pollution in Minnesota. MNRisk aims to better understand cumulative air pollution risks in Minnesota by identifying communities where concentrations of pollutants are elevated, and which sources are contributing the most to pollution in those areas. To capture the potential for air quality concerns across the entire state of Minnesota the modeling performed for MNRisk includes permitted facilities, as well as all other emission sources in the statewide air emissions inventory. These emission sources include dispersed sources such as:  
 
-__Area sources__  
-__Mobile sources__
+- __Residential:__  Home heating, open burning, backyard fires, lawn-care, cleaning products
+-	__Commercial & Industrial:__  Boilers, diesel equipment, dry cleaners, gas stations, construction 
+-	__Transportation:__  Passenger cars, diesel trucks, buses, airports, railroads, recreational vehicles
 
-![mobile sources](images/mobile_source_examples.png)
-
-_MNRiskS_ is an essential tool for understanding air pollution in Minnesota. The modeling results can be used to conduct risk-based prioritizations such as evaluating and comparing impacts from source types or industrial sectors; identifying areas where specific chemicals are of concern; or comparing the differences in impacts of possible interventions in any area of Minnesota. It can also be used to evaluate the potential impacts of proposed changes in rule or policy. 
-
-Applications of _MNRiskS_ at the MPCA include:    
-1.	Providing a picture of cumulative background air pollution concentrations and risks.  
-2.	Focusing and refining the air emissions inventory.  
-3.	Identifying and prioritizing pollutants for future work according to air concentrations and health risks.  
-4.	Prioritizing individual sources and categories based on air concentrations and health risks.  
-5.	Evaluating the placement of new air monitors.  
-6.	Providing information to focus MPCA air programs and resource allocation.  
-7.	Identifying the effects of potential future changes in emissions due to policy, program initiatives or changes at specific facilities.  
+__MNRisk sources__  
+![mobile sources](images/source_map_and_icons.png)
 
 
 ## Maps and results
 
-Modeling results are updated along with EPA's national emissions inventory data every three years. Current results are based on EPA’s most recent completed inventory for calendar year 2011. Updated results using 2014 emissions will be available in 2017, shortly after EPA releases their finalized national emissions inventory. 
+_MNRisk_ results are used to conduct risk-based prioritizations such as comparing impacts from source types or industrial sectors; identifying communities where specific chemicals are a concern; or comparing the differences in impacts of possible interventions or proposed policy changes in an area of Minnesota.  
+
+Applications of _MNRisk_ include:    
+1.	Providing a picture of cumulative background air pollution concentrations and risks.  
+1.	Prioritizing pollutants for future work according to air concentrations and health risks.  
+1.	Prioritizing individual sources and categories based on air concentrations and health risks.  
+1.	Evaluating the placement of air monitors.  
+1.	Identifying the effects of potential future changes in emissions due to policy, program initiatives or changes to facilities.  
 
 
 ![mnrisks tools](images/tools_examples.png)
 
+__Updates:__ Modeling results are updated along with EPA's national emissions inventory data every three years. Current results are based on EPA’s emission inventory for calendar year 2011. Updated results using 2014 emissions are expected to be available in 2017, shortly after EPA releases the finalized national emissions inventory. 
 
-## Uncertainties
+## Assumptions and uncertainties
+
+•	Estimates of risk are uncertain.
 
 ## Methods and documentation
 
@@ -38,3 +45,9 @@ The _MNRiskS_ technical support document provides...
 ![model_monitor](images/model_monitor.png)
 
 ## Frequent questions
+
+What weather data did you use?
+What is a hazard index?
+Is the receptor location me? 
+
+## Contacts
