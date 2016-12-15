@@ -6,7 +6,8 @@
 •	Frequent questions  
 •	Contacts  
 
-> It's not possible to monitor everywhere, nor everything. -Dr. Pratt
+> It's not possible to monitor everywhere, nor everything.   
+> _Gregory Pratt_
 
 _MNRisk_ is an essential tool for understanding air pollution in Minnesota. MNRisk aims to better understand cumulative air pollution risks in Minnesota by identifying communities where concentrations of pollutants are elevated, and which sources are contributing the most to pollution in those areas. To capture the potential for air quality concerns across the entire state of Minnesota the modeling performed for MNRisk includes permitted facilities, as well as all other emission sources in the statewide air emissions inventory. These emission sources include dispersed sources such as:  
 
@@ -23,6 +24,7 @@ __MNRisk sources__
 _MNRisk_ results are used to conduct risk-based prioritizations such as comparing impacts from source types or industrial sectors; identifying communities where specific chemicals are a concern; or comparing the differences in impacts of possible interventions or proposed policy changes in an area of Minnesota.  
 
 Applications of _MNRisk_ include:    
+
 1.	Providing a picture of cumulative background air pollution concentrations and risks.  
 1.	Prioritizing pollutants for future work according to air concentrations and health risks.  
 1.	Prioritizing individual sources and categories based on air concentrations and health risks.  
@@ -40,7 +42,7 @@ __Updates:__ Modeling results are updated along with EPA's national emissions in
 
 ## Methods and documentation
 
-The _MNRiskS_ technical support document provides...
+The _MNRisk_ technical support document provides...
 
 ![model_monitor](images/model_monitor.png)
 
