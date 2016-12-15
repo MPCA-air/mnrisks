@@ -48,8 +48,16 @@ The _MNRisk_ technical support document provides...
 
 ## Frequent questions
 
-What weather data did you use?
-What is a hazard index?
-Is the receptor location me? 
+What weather data did you use? 
+
+> Airport stations.
+
+What is a hazard index?  
+
+> Non-cancer.
+
+Is the receptor location me?   
+
+> Risk estimates are for geographical areas and not an exact location.
 
 ## Contacts
