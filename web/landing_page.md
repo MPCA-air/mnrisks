@@ -1,10 +1,10 @@
-# MNRisk
-•	Overview
-•	Maps and results
-•	Assumptions / uncertainties
-•	Methods
-•	Frequent questions
-•	Contacts
+# MNRisk  
+•	Overview  
+•	Maps and results  
+•	Assumptions / uncertainties  
+•	Methods  
+•	Frequent questions  
+•	Contacts  
 
 > It's not possible to monitor everywhere, nor everything. -Dr. Pratt
 
